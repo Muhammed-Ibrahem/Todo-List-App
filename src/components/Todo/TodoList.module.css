@@ -1,0 +1,33 @@
+.TodoList {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 800px;
+  padding: 1rem;
+  margin-top: -15rem;
+}
+.TodoList .Items {
+  list-style: none;
+  padding: 0.5rem 0rem;
+  margin: 0;
+  margin-top: 2rem;
+  transition: var(--groupThemeTransition);
+  border-radius: 10px 10px 0 0;
+}
+.TodoList .empty {
+  text-align: center;
+  padding: 1rem;
+}
+.lightTheme .empty {
+  color: var(--Very--Dark-Grayish-Blue);
+}
+.darkTheme .empty {
+  color: var(--Light-Grayish-Blue);
+}
+
+.darkTheme .Items {
+  background-color: var(--Very-Dark-Desaturated-Blue);
+}
+
+.lightTheme .Items {
+  background-color: var(--Very-Light-Grayish-Blue);
+}

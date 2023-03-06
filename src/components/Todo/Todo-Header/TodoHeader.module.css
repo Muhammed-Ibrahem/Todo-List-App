@@ -1,0 +1,37 @@
+.TodoHeader header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TodoHeader header h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1rem;
+}
+.TodoHeader img {
+  cursor: pointer;
+}
+.TodoHeader input {
+  width: 100%;
+  border: none;
+  color: var(--Very--Dark-Grayish-Blue);
+  letter-spacing: 0.1rem;
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  transition: var(--bg-color) var(--timer), var(--color) var(--timer);
+}
+.TodoHeader input::placeholder {
+  color: var(--Very--Dark-Grayish-Blue);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "League Spartan", sans-serif;
+}
+.darkTheme input {
+  background-color: var(--Very-Dark-Desaturated-Blue);
+}
+.lightTheme input {
+  background-color: var(--Very-Light-Grayish-Blue);
+}

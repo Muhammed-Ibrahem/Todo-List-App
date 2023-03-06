@@ -1,0 +1,23 @@
+.hero {
+  width: 100%;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.5s;
+}
+.darkTheme {
+  background-image: url("../../assets/bg-mobile-dark.jpg");
+}
+@media screen and (min-width: 769px) {
+  .darkTheme {
+    background-image: url("../../assets/bg-desktop-dark.jpg");
+  }
+}
+.lightTheme {
+  background-image: url("../../assets/bg-desktop-light.jpg");
+}
+@media screen and (min-width: 769px) {
+  .lightTheme {
+    background-image: url("../../assets/bg-desktop-light.jpg");
+  }
+}

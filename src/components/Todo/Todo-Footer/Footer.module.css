@@ -1,0 +1,42 @@
+.TheFooter {
+  width: 100%;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  transition: var(--groupThemeTransition);
+  color: var(--Very--Dark-Grayish-Blue);
+  gap: 1rem;
+}
+.TheFooter ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.TheFooter li {
+  cursor: pointer;
+}
+.TheFooter li.active {
+  color: var(--Bright-Blue);
+}
+.TheFooter button {
+  color: var(--Very--Dark-Grayish-Blue);
+  border: none;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+.lightTheme {
+  background-color: var(--Very-Light-Grayish-Blue);
+}
+.darkTheme {
+  background-color: var(--Very-Dark-Desaturated-Blue);
+}
+@media screen and (max-width: 425px) {
+  .TheFooter button {
+    font-size: 12px;
+  }
+}
