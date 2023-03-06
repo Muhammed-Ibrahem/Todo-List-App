@@ -35,7 +35,9 @@ const TodoList = () => {
       );
     if (!state.TodoItems.length) {
       itemsList = (
-        <p className={styles.empty}>Looks like you got no Todos, What about creating one?</p>
+        <p className={styles.empty}>
+          Looks like you got no Todos, What about creating one?
+        </p>
       );
     }
   }
@@ -51,7 +53,7 @@ const TodoList = () => {
     if (!itemsList.length && state.TodoItems.length)
       itemsList = (
         <p className={styles.empty}>
-          Stop procrastinating you lazy-ass & Complete your Todos!
+          Stop procrastinating & Complete your Todos!
         </p>
       );
     if (!state.TodoItems.length) {
